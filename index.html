@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Học thiết kế web - Hướng dẫn cách tạo menu Responsive với Bootsnav | hocwebgiare.com</title>
+<meta name="description" content="Học thiết kế web giả rẻ tại hocwbgiare.com" />
+<meta name="keywords" content="hoc thiet ke web, lap trinh php, học online, thiet ke web chuan seo, lap trinh web, hoc php, thiet ke website chuan seo, học thiết kế website, học thiết kế web, thiết kế website chuẩn seo" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootsnav.css"/>
+<style>
+.navbar-brand{
+    padding: 29px 15px;
+    height: auto;
+}
+nav.navbar.bootsnav{
+    border: none;
+    margin-bottom: 150px;
+}
+.navbar-nav{
+    float: right;
+}
+nav.navbar.bootsnav ul.nav > li > a{
+    color: #474747;
+    text-transform: uppercase;
+    padding: 30px;
+}
+nav.navbar.bootsnav ul.nav > li:hover{
+    background: #f4f4f4;
+}
+.nav > li:after{
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #34c9dd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.nav > li:hover:after{
+    width: 100%;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+    content: "+";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    transition: all 0.4s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown.on > a.dropdown-toggle:after{
+    content: "\f105";
+    transform: rotate(90deg);
+}
+.dropdown-menu.multi-dropdown{
+    position: absolute;
+    left: -100% !important;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+@media only screen and (max-width:990px){
+    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after,
+    nav.navbar.bootsnav ul.nav > li.dropdown.on > a.dropdown-toggle:after{ content: " "; }
+    .dropdown-menu.multi-dropdown{ left: 0 !important; }
+    nav.navbar.bootsnav ul.nav > li:hover{ background: transparent; }
+</style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-md-3">
+                <h1>LOGO</h1>
+            </div>
+            <div class="col-md-9">
+                <nav class="navbar navbar-default navbar-mobile bootsnav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li><a href="http://hocwebgiare.com" title="Học thiết kế web giá rẻ">Trang chủ</a></li>
+                            <li><a href="http://hocwebgiare.com" title="Học thiết kế web giá rẻ">Giới thiệu</a></li>
+                            <li class="dropdown">
+                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li class="dropdown">
+                                        <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li class="dropdown">
+                                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                                <ul class="dropdown-menu multi-dropdown">
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Dịch vụ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li class="dropdown">
+                                        <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li class="dropdown">
+                                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                <ul class="dropdown-menu multi-dropdown">
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://hocwebgiare.com">Hình ảnh</a></li>
+                            <li><a href="http://hocwebgiare.com">Liên hệ</a></li>
+                            <li class="dropdown">
+                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Dịch vụ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li class="dropdown">
+                                        <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            <li class="dropdown">
+                                                <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                <ul class="dropdown-menu multi-dropdown">
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div> 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootsnav.js"></script>
+</body>
+</html>

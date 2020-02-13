@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+{{include 'site/sale_dongphucbravo1/default/js.html'}}
+
+
+<!-- --------------------------------------------------------------------------- -->	
+<!-- Quang cao -->
+
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>  -->
+<!-- <script>
+
+$(document).ready(function() {	
+	
+	//Put in the DIV id you want to display
+	launchWindow('#dialog1');
+	
+	//if close button is clicked
+	$('.window #close').click(function () {
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+	
+
+	$(window).resize(function () {
+	 
+ 		var box = $('#boxes .window');
+ 
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+      
+        //Set height and width to mask to fill up the whole screen
+        $('#mask').css({'width':maskWidth,'height':maskHeight});
+               
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+
+        //Set the popup window to center
+        box.css('top',  winH/2 - box.height()/2);
+        box.css('left', winW/2 - box.width()/2);
+	 
+	});	
+	
+});
+
+function launchWindow(id) {
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height());
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 
+	
+
+}
+
+</script>
+
+-->
+<!-- <div id="boxes"> -->
+	<!-- <div id="dialog1" class="window"> -->
+		<!-- <div class="d-header"> -->
+			<!-- <a href="#" class="close" id="close"/>Đóng quảng cáo</a> -->
+			<!-- <img alt="" height="471" src="{{=URL(c='static',f=static_default)}}/images/thongbao.jpg" width="1000"> -->
+			<!-- </div> -->
+			<!-- </div> -->
+			<!-- <div id="mask"></div> -->
+			<!-- </div>  -->
+			<!-- /Quang cao -->
+
+			<!-- --------------------------------------------------------------------------- -->
+			<body  class="featured homepage  ltr preset4 menu-home responsive bg hfeed clearfix">
+				<div class="row-offcanvas row-offcanvas-left">
+					<div>
+						<div class="body-innerwrapper">
+		<!-- <section id="sp-top-wrapper" class=" box-layout4 ">
+			<div class="container">
+				<div class="row-fluid" id="top">
+					 {{=portlet.display(61)}}
+			</div>
+			</div>
+		</section> -->
+
+<!-- <header id="sp-header-wrapper" class=" box-layout4 ">
+	<div class="container">
+		<div class="row-fluid" id="header">
+			<div  class="span3"></div>
+			<div id="sp-logo" class="span6">
+				{{=portlet.display(62)}}
+			</div>
+			<div  class="span3"></div>
+		</div>
+	</div>
+</header> -->
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <h1>LOGO</h1>
+        </div>
+        <div class="col-md-9">
+            <nav class="navbar navbar-default navbar-mobile bootsnav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="http://hocwebgiare.com" title="Học thiết kế web giá rẻ">Đồng phục BRAVO</a></li>
+                        <li><a href="http://hocwebgiare.com" title="Học thiết kế web giá rẻ">Giới thiệu</a></li>
+                        <li class="dropdown">
+                            <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li class="dropdown">
+                                    <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        <li class="dropdown">
+                                            <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                            <ul class="dropdown-menu multi-dropdown">
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Hỗ trợ mua hàng</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://hocwebgiare.com">Tin tức sự kiện</a></li>
+                        <li><a href="http://hocwebgiare.com">Liên hệ</a></li>
+                        <li class="dropdown">
+                            <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Dịch vụ</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li class="dropdown">
+                                    <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                        <li class="dropdown">
+                                            <a href="http://hocwebgiare.com" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                            <ul class="dropdown-menu multi-dropdown">
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                                <li><a href="http://hocwebgiare.com">Custom Menu</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div> 
+
+<section id="sp-feature1-wrapper" class=" ">
+	<div class="row-fluid" id="feature1">
+		<div id="sp-slide-show1" class="span12">
+			<div class="module ">	
+				<div class="mod-wrapper clearfix">		
+					<div class="mod-content clearfix">	
+						<div class="mod-inner clearfix">
+							<div class="vina-camera-slider-wrapper">
+								{{=portlet.display(66)}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gap"></div>
+		</div>
+	</div>
+</section>
+<div class="gap"></div>
+
+
+<div class="container" style="margin-top: 20px; ">
+	<div class="row-fluid" id="main-body">
+
+		<!-- <aside id="sp-right" class="span3 hidden-phone ">
+			<br/>
+			<br/>
+			<br/>
+			<div class="module  vina_categories">	
+				
+				{{=portlet.display(68)}}
+			</div>
+			
+			
+			</aside>
+			
+			<div id="sp-message-area" class="span9 row">
+				<div class="gap"></div>
+				<div id="banner-top">
+					{{=portlet.display(100)}}
+					<div class=" hidden-phone">
+						{{=portlet.display(88)}}
+					<br/>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="row-fluid" id="box1-video">
+				<div id="box1-vdtext" class="span6">
+					<div class="tcb-col tve_empty_dropzone">
+						<div class="thrv_wrapper">
+							<h3 class="tve-h3" style="text-align: left;">
+								<strong>ĐỒNG PHỤC DOANH NGHIỆP</strong>
+							</h3>
+						</div>
+						<div class="thrv_wrapper_text">
+							<p>Đồng phục Bravo cung cấp mọi giải pháp đồng phục cho doanh nghiệp của bạn. Với kiểu dáng phong phú, chất lượng đặt lên hàng đầu, chúng tôi tự tin sẽ làm hài lòng mọi khách hàng.<br> Kho vải sơ mi, áo thun của Bravo rất phong phú với gần 40 dòng vải cao cấp và màu sắc vải khác nhau cho khách hàng lựa chọn</p>
+						</div>
+						<div class="tcb-clear">
+							<div class="thrv-button">
+								<a href="" class="tcb-button-link">
+									<span class="tcb-button-text">
+										<strong>Vải mẫu miễn phí &gt;&gt;</strong>
+									</span>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!--  -->
+				<div id="box1-vdvideo" class="span6">	
+					<div class="video-intro">
+						<div class="image">
+							<div class="play-button btnplay"></div>
+							<a href="#" id="btn_play" class="btnplay"><img src="{{=URL('static','%s/images/banners/playvideo.jpg')%(static_default)}}" alt="play video" /></a>
+						</div>
+						<iframe src="https://www.youtube.com/embed/GRJ0ae3EmGw" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+					</div>
+				</div>
+			</div>
+			<!-- End video -->
+			<!-- Box1.1 -->
+			<div class="row-fluid video-banners">
+				<div class="video_text_element span4">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<h4>Vải cotton 100% mát lạnh</h4>
+					</a>
+					<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+				</div>
+				<div class="video_text_element span4">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<h4>Vải cotton 100% mát lạnh</h4>
+					</a>
+					<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+				</div>
+				<div class="video_text_element span4">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<h4>Vải cotton 100% mát lạnh</h4>
+					</a>
+					<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+
+
+	<section id="sp-banner-top-wrapper" >
+		<div class="container-fluid box2-why-grid">
+			<div class="why-grid-text">
+				<h3>TẠI SAO NÊN CHỌN LÀM <br> ĐỒNG PHỤC TẠI UNIBRAVO?</h3>
+				<hr class="border-bottom">
+			</div>
+
+			<div class="why-grid-image">
+				<div class="grid-image-box1">
+					<img class="tve_image wp-image-5412" alt="" width="500" height="500" title="icon-free-design-chuan" data-id="5412" src="{{=URL('static','%s/images/grid/icon-free-design-chuan-1.gif')%(static_default)}}" style="width: 100%;" scale="0">
+					<p>Thiết kế miễn phí</p>
+				</div>
+				<div class="grid-image-box2">
+					<img class="tve_image wp-image-5412" alt="" width="500" height="500" title="icon-free-design-chuan" data-id="5412" src="{{=URL('static','%s/images/grid/mau-vai-chuan-1.gif')%(static_default)}}" style="width: 100%;" scale="0">
+					<p>Vải mẫu miễn phí</p>
+				</div>
+				<div class="grid-image-box3">
+					<img class="tve_image wp-image-5412" alt="" width="500" height="500" title="icon-free-design-chuan" data-id="5412" src="{{=URL('static','%s/images/grid/icon-freeshipchuan-1.gif')%(static_default)}}" style="width: 100%;" scale="0">
+					<p>Freeship toàn quốc</p>
+				</div>
+				<div class="grid-image-box4">
+					<img class="tve_image wp-image-5412" alt="" width="500" height="500" title="icon-free-design-chuan" data-id="5412" src="{{=URL('static','%s/images/grid/bao-hanh-chuan-1.gif')%(static_default)}}" style="width: 100%;" scale="0">
+					<p>Bảo hành 2 năm</p>
+				</div>
+			</div>
+			
+		</div>	
+
+	</section>
+	<!-- end box2 -->
+	<!--  -->
+	<section id="box3-why-blog">
+		<div class="container why-blog-box31">
+			<div class="why-blog-box31-lage">
+				<a href="">
+					<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+					<h4>Vải cotton 100% mát lạnh</h4>
+				</a>
+			</div>
+			<!-- end -->
+			<div class="why-blog-box31-small">
+				<div class="why-blog-box31-small1">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<span>
+							<h4>Vải cotton 100% mát lạnh</h4>
+							<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+						</span>
+					</a>
+				</div>
+				<div class="why-blog-box31-small2">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<span>
+							<h4>Vải cotton 100% mát lạnh</h4>
+							<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+						</span>
+					</a>
+				</div>
+				<div class="why-blog-box31-small3">
+					<a href="">
+						<img src="http://ninethemes.net/goshop/opencart/default/image/catalog/banner-01.png" alt="Banner">
+						<span>
+							<h4>Vải cotton 100% mát lạnh</h4>
+							<p>Vải cotton 100% mới nhất tại Bravo là dòng vải cao cấp dùng cho áo thun, không xù, nóng, không phai màu, thoải mái khi mặc. Vải nhập khẩu hoàn toàn từ Nhật Bản, bề mặt mực in mịn, mỏng, không có cảm giác cộm mực. Bảo hành hình in đến 2 năm.</p>
+						</span>
+					</a>
+				</div>
+			</div>
+			<!-- end -->
+		</div>
+		<!--  -->
+		<div class="container main-content-box2">
+			<div class="jshop list_product vina-ticker-jshopping164">
+				<div class="row-fluid vina-items-wrapper">
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<!-- Title Block -->
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> <h3>Đồng phục Veston nữ BR012 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> <h3>Đồng phục Veston nữ BR011 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<!-- Title Block -->
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> <h3>Đồng phục Veston nữ BR012 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> <h3>Đồng phục Veston nữ BR011 </h3></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row-fluid vina-items-wrapper">
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<!-- Title Block -->
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> <h3>Đồng phục Veston nữ BR012 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> <h3>Đồng phục Veston nữ BR011 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<!-- Title Block -->
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> <h3>Đồng phục Veston nữ BR012 </h3></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="span3 block_item">
+						<div class="product item_inner shadow-radial productitem_307">
+							<div class="image">
+								<div class="image_block">
+									<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+										<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+									</a>
+								</div>
+							</div>
+							<div class="vina_content">								
+								<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> <h3>Đồng phục Veston nữ BR011 </h3></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- End box3 -->
+
+	<section id="box4-product" >
+		<div class="container-fluid">
+			<div class="row">
+				<div class="box4-product-title">
+					<h3>Các sản phẩm chính</h3>
+				</div>
+			</div>
+		</div>
+		<!--  -->
+		<div class="container">
+			<div class="box4-main-product">
+				<div class="jshop list_product vina-ticker-jshopping164">
+					<div class="row-fluid vina-items-wrapper">
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<!-- Title Block -->
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> 
+										<h3>Đồng phục Veston nữ BR012 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> 
+										<h3>Đồng phục Veston nữ BR011 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<!-- Title Block -->
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> 
+										<h3>Đồng phục Veston nữ BR012 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> 
+										<h3>Đồng phục Veston nữ BR011 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="jshop list_product vina-ticker-jshopping164">
+					<div class="row-fluid vina-items-wrapper">
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<!-- Title Block -->
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> 
+										<h3>Đồng phục Veston nữ BR012 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> 
+										<h3>Đồng phục Veston nữ BR011 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<!-- Title Block -->
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br012.html" title="Đồng phục Veston nữ BR012"> 
+										<h3>Đồng phục Veston nữ BR012 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3 block_item">
+							<div class="product item_inner shadow-radial productitem_307">
+								<div class="image">
+									<div class="image_block">
+										<a class="images" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011">
+											<img class="jshop_img single-image" src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.bf91c6dab3643a2f.31312e6a7067.jpg" alt=" Đồng phục Veston nữ BR011" title=" Đồng phục Veston nữ BR011">
+										</a>
+									</div>
+								</div>
+								<div class="vina_content">								
+									<a class="name" href="/dong-phuc-ao-vest-nu/product/dong-phuc-veston-nu-br011.html" title="Đồng phục Veston nữ BR011"> 
+										<h3>Đồng phục Veston nữ BR011 </h3>
+									</a>
+									<a href="" class="button-readmore">Xem thêm &raquo; </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- End box4 -->
+	<section id="box5-product" >
+		<div class="container-fluid">
+			<div class="row">
+				<div class="box4-product-title">
+					<h3>Khách hàng thật của UNI BRAVO</h3>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row box5-customer span12">
+				<div class="box5-customer-image">
+					<a href="">
+						<img src="{{=URL('static','%s/images/banners/Doi-tac-bravo.jpg')%(static_default)}}">
+					</a>
+				</div>
+				<!--  -->
+				<div class="box5-customer-gp">
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End box5 -->
+
+	<section id="box6-intro" >
+		<div class="container-fluid">
+			<div class="row">
+				<div class="box4-product-title">
+					<h3>HƠN 10.000 KHÁCH HÀNG, GẦN 1 TRIỆU ÁO ĐÃ SẢN XUẤT TRONG 5 NĂM.</h3>
+				</div>
+				<div class="box6-intro-image">
+					<img src="{{=URL('static','%s/images/banners/playvideo.jpg')%(static_default)}}">
+				</div>
+			</div>
+		</div>
+		<!--  -->
+		<div class="container box6-intro-video">
+			<div class="row">
+				<div class="span8 intro-video-left">
+					<iframe src="https://www.youtube.com/embed/GRJ0ae3EmGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="span4 intro-video-right">
+					<div class="intro-video-right1">
+						<img src="{{=URL('static','%s/images/banners/playvideo.jpg')%(static_default)}}">
+					</div>
+					<div class="intro-video-right2">
+						<img src="{{=URL('static','%s/images/banners/playvideo.jpg')%(static_default)}}">
+					</div>
+				</div>
+			</div>
+			<div class="row intro-image-fl">
+				<div class="jshop list_product vina-ticker-jshopping164">
+					<div class="row-fluid vina-items-wrapper">
+						<div class="">
+							<ul id="imageGallery">
+								<li class="span3">
+									<a href="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" title="Đồng phục Veston nữ BR012">
+										<img src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</li>
+								<li class="span3">
+									<a href="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" title="Đồng phục Veston nữ BR012">
+										<img src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</li>
+								<li class="span3">
+									<a href="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" title="Đồng phục Veston nữ BR012">
+										<img src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</li>
+								<li class="span3">
+									<a href="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" title="Đồng phục Veston nữ BR012">
+										<img src="http://dongphuc.tainghean.com/cms/static/site/sale_dongphucbravo1/uploads/product/product.avatar.a0924a97be8cc414.31322e6a7067.jpg" alt=" Đồng phục Veston nữ BR012" title=" Đồng phục Veston nữ BR012">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="sp-bottom-wrapper" class=" ">
+		<div class="container">
+			<div class="row-fluid" id="bottom">
+				<div id="sp-bottom1" class="span6">
+					{{=portlet.display(78)}}
+					<div class="gap"></div>
+				</div>
+
+				<div id="sp-bottom4" class="span2">
+					{{=portlet.display(80)}}	
+					<div class="gap"></div>
+				</div>
+
+				<div id="sp-bottom5" class="span4">
+					<div class="module">	
+						<div class="mod-wrapper-flat clearfix">		
+							<h3 class="header">			
+								<span>Page Facebook</span>			
+							</h3>
+							{{=portlet.display(77)}}
+						</div>
+					</div>
+					<div class="gap"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	var showNav = 1;
+	var keyboardNav = 1;
+	var showCaption = 1;
+	var loop = 1;
+
+	var $overlay = $('<div id="overlay"></div>');
+	var $image = $('<img>');
+	var $holder = $('<div class="holder"></div>');
+	var $caption = $('<p></p>');
+	var $nav = $('<div class="nav"><a id="close" nohref><span>&times;</span></a><a id="prev" nohref><span>&#8592;</span></a><a id="next" nohref><span>&#8594;</span></a></nav>');
+	var glength = $('#imageGallery li').length;
+	var imageIndex, imageLocation, captionText, allowKeyboard;
+	$('#overlay img').before('');
+	$holder.append( $image );
+	$holder.append( $nav );
+	if ( showCaption ){ $holder.append( $caption ); }
+	if ( !showNav ){ $nav.hide(); }
+	$overlay.append( $holder );
+	$("body").append( $overlay );
+
+	$('#imageGallery a').click( function(event) {
+		event.preventDefault();
+		imageLocation = $(this).attr("href");
+		imageIndex = $( '#imageGallery a' ).index(this) + 1;
+
+		$image.attr("src", imageLocation);
+
+		$(this).addClass('active');
+		$('#imageGallery a').not(this).removeClass('active');
+
+		captionText = $(this).children("img").attr("alt");
+		$caption.text(captionText);
+
+		allowKeyboard = 1;
+		$overlay.show(); 
+	});
+
+	//Close overlay
+	$image.click(function() {
+		allowKeyboard = 0;
+		$($overlay).hide();
+	});
+
+	$overlay.click(function(e) {
+		if(e.target != this) return;
+		$(this).hide();
+	});
+
+	$('#close').click(function() {
+		$($overlay).hide();
+	});
+</script>
+
+</body>	
+
+</html>
